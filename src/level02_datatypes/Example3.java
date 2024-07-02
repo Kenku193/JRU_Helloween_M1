@@ -1,4 +1,4 @@
-package level02;
+package level02_datatypes;
 
 import java.util.Scanner;
 

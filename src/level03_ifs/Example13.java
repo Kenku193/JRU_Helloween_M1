@@ -1,6 +1,4 @@
-package level03;
-
-import java.util.Scanner;
+package level03_ifs;
 
 public class Example13 {
     public static void main(String[] args) {

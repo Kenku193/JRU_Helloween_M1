@@ -1,8 +1,8 @@
-package level03;
+package level03_ifs;
 
 import java.util.Scanner;
 
-public class TaskV1 {
+public class TaskV2 {
     public static void main(String[] args) {
 
         // ВАЛИДАЦИЯ ПАРОЛЯ
@@ -14,17 +14,10 @@ public class TaskV1 {
         String password = scanner.nextLine();
 
         boolean isValid = true;
-        // V1
-        // ПРОВЕРЯЕМ НА ТО ЧТО ПУСТОЙ
-        if (password.isBlank()) {
-            isValid = false;
-        }
-        // ПРОВЕРЯМ НА СООТВ ДЛИНЕ
-        if (password.length() <= 10) {
-            isValid = false;
-        }
-        // ПРОВЕРЯЕМ ЧТО СОДЕРЖАТСЯ СИМВОЛЫ
-        if (!(password.contains("!") || password.contains("-") || password.contains("."))) {
+        // V2
+        if (password.length() <= 10
+                || password.isBlank()
+                || !(password.contains("!") || password.contains("-") || password.contains("."))){
             isValid = false;
         }
 
@@ -34,6 +27,5 @@ public class TaskV1 {
         else {
             System.out.println("Пароль не валидный!");
         }
-
     }
 }

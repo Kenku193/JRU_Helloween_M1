@@ -1,4 +1,4 @@
-package level03;
+package level03_ifs;
 
 import java.util.Scanner;
 

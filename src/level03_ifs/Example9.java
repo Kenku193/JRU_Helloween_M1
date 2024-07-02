@@ -1,4 +1,4 @@
-package level03;
+package level03_ifs;
 
 public class Example9 {
     public static void main(String[] args) {

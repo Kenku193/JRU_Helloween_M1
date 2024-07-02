@@ -1,4 +1,4 @@
-package level01;
+package level01_hello;
 
 public class Example {
     public static void main(String[] args) {

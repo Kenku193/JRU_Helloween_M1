@@ -1,4 +1,4 @@
-package level02;
+package level02_datatypes;
 
 public class Example1 {
     public static void main(String[] args) {
