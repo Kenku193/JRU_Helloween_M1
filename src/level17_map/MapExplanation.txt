@@ -1,0 +1,11 @@
+Map             : Key     :       Value
+Телефонная книга: Имя     :       Номер
+Словарь         : Слово   :       Определение
+Соц. сеть       : Имя     :       Профиль
+Автомобиль      : VIN-номер :     Модель
+
+Map<K, V> -> Map<Integer, String>
+
+    Login , Password
+      id  , User
+Map<Long, String> users = new HashMap<>();
